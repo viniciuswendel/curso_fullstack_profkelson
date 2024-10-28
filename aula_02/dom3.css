@@ -1,0 +1,39 @@
+/* Crie uma página que gere um número aleatório entre 1 e 100 e permita que o usuário tente adivinhar. Informe se a tentativa é maior, menor ou igual ao número gerado. */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    max-width: 500px;
+    color: #333;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 30%;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+/* Crie uma página que calcule a média de quatro notas inseridas pelo usuário. Exiba se o aluno foi aprovado (média >= 7) ou reprovado (média < 7). */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    max-width: 400px;
+}
+h2 {
+    color: #333;
+}
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background-color: #4cae4c;
+}
